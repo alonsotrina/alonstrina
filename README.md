@@ -2,10 +2,6 @@
 
 Esta plantilla está diseñada para ayudarte a enfrentar pruebas técnicas con confianza. Proporciona una configuración mínima para hacer funcionar React en Vite con HMR (Hot Module Replacement) y algunas reglas de ESLint preconfiguradas. Utiliza una selección de dependencias cuidadosamente elegidas para que puedas centrarte en resolver desafíos técnicos sin perder tiempo en configuraciones.
 
-## Objetivo
-
-El objetivo de esta plantilla es brindarte un punto de partida rápido y efectivo para abordar pruebas técnicas relacionadas con tecnologías React y Vite. Puedes concentrarte en demostrar tus habilidades y resolver problemas técnicos sin tener que preocuparte por la configuración básica.
-
 ## Características
 
 - Configuración mínima para desarrollar proyectos React con Vite.
@@ -40,10 +36,6 @@ Además, se utilizan las siguientes dependencias de desarrollo:
 3. Instala las dependencias: `npm install` o `yarn install`.
 4. Inicia el servidor de desarrollo: `npm run dev` o `yarn dev`.
 5. Abre tu navegador y ve a `http://localhost:3000`.
-
-## Opciones de Personalización
-
-Si la prueba técnica lo requiere, puedes personalizar esta plantilla según tus necesidades, agregando o eliminando dependencias y ajustando las reglas de ESLint.
 
 ## Contribución
 
