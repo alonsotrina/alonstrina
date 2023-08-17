@@ -4,9 +4,9 @@ import { HeaderPageDetail } from './styled'
 import { BiArrowBack } from "react-icons/bi";
 
 
-const Index = ({ title, link }) => {
+const Index = ({ title, link, theme }) => {
   return (
-    <HeaderPageDetail>
+    <HeaderPageDetail theme={theme}>
       <div className="header__title">
         { link &&  <Link to={link}><BiArrowBack/></Link>}
         { title &&  <h2 className='fs-5 fw-bold text-light mt-3'>{title}</h2>}
@@ -18,6 +18,7 @@ const Index = ({ title, link }) => {
 Index.defaultProps = {
   link: "/dashboard",
   title: 'Title page',
+  backgroundColor:'#fdfdfd'
 }
 
 export default Index

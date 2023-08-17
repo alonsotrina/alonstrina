@@ -6,4 +6,8 @@ export const ContentDetail = styled.div`
   margin-top: -80px;
   position: relative;
   z-index: 2;
+
+  @media (max-width: 768px) {
+    width: 90%;
+  }
 `;

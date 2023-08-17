@@ -4,11 +4,12 @@ export const globalStyles = {
     primary: '#007bff',
     secondary: '#6c757d',
     success: '#28a745',
-    danger: '#DC3545',
-    warning: '#ffda6a',
+    danger: '#DC3444',
+    warning: '#FFC007',
     light: '#ffffff',
     grey: '#F6F7FB',
-    dark: '#000000'
+    dark: '#000000',
+    info:'#10CAF0'
     // ...otros colores
   },
   boxShadow: {

@@ -1,5 +1,6 @@
 import { useCharacterContext } from '../../context/CharacterContext';
 import { Container, Row, Col } from 'react-bootstrap';
+import { globalStyles } from "../../style/globalStyles";
 import List from "../../components/List/Index"
 import HeaderPageDetail from "../../components/Header/PageDetail"
 import WrapperDetail from "../../components/PageDatail/WrapperDetail/Index"
@@ -15,6 +16,9 @@ const Index = () => {
       <HeaderPageDetail
         title="Character Details"
         link="/dashboard/character"
+        theme={{ 
+          bgColor: globalStyles.colors.danger
+         }}
       />
 
       <WrapperDetail>

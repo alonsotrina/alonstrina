@@ -87,7 +87,7 @@ const index = () => {
         console.error("Login Error:", error);
         setResponse('Login Error:');
         Modal.handleShow();
-        setMsg({ type: 'danger', msg: `${error.message}, Intentelo más tarde...` });
+        setMsg({ type: 'danger', msg: `${error.message}, inténtelo más tarde...` });
       }
 
       setLoading(false);

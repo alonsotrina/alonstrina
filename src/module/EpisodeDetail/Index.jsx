@@ -1,5 +1,6 @@
 import { useCharacterContext } from '../../context/CharacterContext';
 import { Container, Row, Col } from 'react-bootstrap';
+import { globalStyles } from "../../style/globalStyles";
 import List from "../../components/List/Index"
 import HeaderPageDetail from "../../components/Header/PageDetail"
 import WrapperDetail from "../../components/PageDatail/WrapperDetail/Index"
@@ -8,13 +9,17 @@ import ContentDescription from "../../components/PageDatail/ContentDescription"
 
 const Index = () => {
   const { selectedElement } = useCharacterContext();
+
   let { name, id, episode, air_date, characters } = selectedElement;
 
   return (
     <div>
       <HeaderPageDetail
         title="Episode Details"
-        link="/dashboard/location"
+        link="/dashboard/episode"
+        theme={{ 
+          bgColor:globalStyles.colors.warning
+         }}
       />
 
       <WrapperDetail>
