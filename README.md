@@ -35,7 +35,9 @@ Además, se utilizan las siguientes dependencias de desarrollo:
 2. Navega a la carpeta del proyecto: `cd nombre-del-proyecto`.
 3. Instala las dependencias: `npm install` o `yarn install`.
 4. Inicia el servidor de desarrollo: `npm run dev` o `yarn dev`.
-5. Abre tu navegador y ve a `http://localhost:3000`.
+5. Abre tu navegador y ve a `http://localhost:3000`,
+6. Crear tu archivo .env,
+7. Configura las variables de entorno VITE_REACT_APP_API_URL="https://reqres.in/api" y VITE_REACT_APP_API_URL_RICK_AND_MORTY="https://rickandmortyapi.com/api".
 
 ## Contribución
 
